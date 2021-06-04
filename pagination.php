@@ -16,6 +16,6 @@ $pagination = new W1020\HTML\Pagination(); ?>
     <title>Document</title>
 </head>
 <body>
-<?= $pagination->setActivePage(2)->setPageCount(6)->html() ?>
+<?= $pagination->setActivePage(3)->setPageCount(6)->html() ?>
 </body>
 </html>
