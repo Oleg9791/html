@@ -7,7 +7,7 @@ namespace W1020\HTML;
 class Pagination
 {
     protected int $pageCount = 0;
-    protected int $activePage;
+    protected ?int $activePage = null;
     protected string $urlPrefix = "?page=";
 
     /**
