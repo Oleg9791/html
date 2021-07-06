@@ -11,6 +11,6 @@
   },
   "scripts": {
     "test": "phpunit --testsuite mytests",
-    "run": "php -S localhost:8000 -t demo/"
+    "demo": "php -S localhost:8000 -t demo/"
   }
 }
