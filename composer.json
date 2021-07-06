@@ -10,6 +10,7 @@
     "phpunit/phpunit": "^9.5"
   },
   "scripts": {
-    "test": "phpunit --testsuite mytests"
+    "test": "phpunit --testsuite mytests",
+    "run": "php -S localhost:8000 -t demo/"
   }
 }
